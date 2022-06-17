@@ -33,7 +33,7 @@ public class NameInverterTest  {
     }
 
     @Test
-    public void givenFirstLast_returnLastFirt() throws Exception {
+    public void givenFirstLast_returnLastFirst() throws Exception {
         assertInverted("First Last", "Last, First");
     }
 
